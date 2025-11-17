@@ -488,3 +488,16 @@ nav a:hover {
   margin-top: 0;
   color: #1fb6ff;
 }
+/* FAQ */
+.faq-item {
+  background: rgba(10,16,32,0.85);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #1fb6ff44;
+}
+
+.faq-item h3 {
+  margin-top: 0;
+  color: #1fb6ff;
+}
