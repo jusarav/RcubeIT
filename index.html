@@ -1,100 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R³ IT | R-Cube IT Solutions</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>R³ IT | R-Cube IT Solutions</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-
-<!-- HEADER -->
-<header>
-    <div class="logo">
-        <img src="assets/logo.png" alt="R3 IT Logo">
-        <span>R³ IT</span>
-    </div>
-
-    <nav id="navMenu">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
+  <header class="top-nav">
+    <div class="container nav-content">
+      <div class="logo">
+        <!-- Text logo in Style B -->
+        <span class="logo-main">R³ <span class="logo-it">IT</span></span>
+        <span class="logo-sub">R-Cube IT Solutions</span>
+      </div>
+      <nav>
         <a href="#services">Services</a>
+        <a href="#cloud">Cloud &amp; Azure</a>
+        <a href="#why">Why Us</a>
         <a href="#contact">Contact</a>
-    </nav>
-
-    <div class="mobile-menu" onclick="toggleMenu()">☰</div>
-</header>
-
-<!-- HERO SECTION -->
-<section id="home" class="hero">
-    <h1>R³ IT (R-Cube IT Solutions)</h1>
-    <p>Your Reliable Partner for IT Support, Troubleshooting, Cloud & System Administration.</p>
-    <a href="#contact" class="btn">Contact Now</a>
-</section>
-
-<!-- ABOUT SECTION -->
-<section id="about" class="section">
-    <h2>About Us</h2>
-    <p>
-        R³ IT provides professional IT Support, System Administration, Cloud Services, Laptop Service, 
-        PC Build, Networking, and Managed IT Solutions. With 7+ years of experience, we help businesses 
-        and individuals keep their systems fast, secure, and reliable.
-    </p>
-</section>
-
-<!-- SERVICES SECTION -->
-<section id="services" class="section services">
-    <h2>Services</h2>
-
-    <div class="service-box">
-        <h3>IT Support</h3>
-        <p>Troubleshooting, OS issues, software installation, remote & onsite support.</p>
+      </nav>
     </div>
+  </header>
 
-    <div class="service-box">
-        <h3>System Administration</h3>
-        <p>Users, permissions, shared folders, VPN, printers, AD, Azure AD.</p>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>End-to-End IT, Cloud &amp; Support for Growing Businesses</h1>
+        <p>
+          R³ IT (R-Cube IT) provides premium IT support, system administration,
+          cloud services, and managed IT for offices, branches, labs and small
+          to mid-size businesses.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Talk to Us</a>
+          <a href="#services" class="btn-ghost">View All Services</a>
+        </div>
+        <div class="hero-highlights">
+          <span>10+ years IT experience</span>
+          <span>Onsite &amp; Remote Support</span>
+          <span>Tailored AMC &amp; Projects</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2>Quick IT Health Check</h2>
+        <p>Struggling with performance, downtime or migrations?</p>
+        <ul>
+          <li>Slow PCs &amp; network issues</li>
+          <li>Email / Microsoft 365 / Azure problems</li>
+          <li>Backup, security &amp; monitoring gaps</li>
+        </ul>
+        <p class="hero-card-note">
+          Get a quick assessment and action plan for your infra.
+        </p>
+      </div>
     </div>
+  </section>
 
-    <div class="service-box">
-        <h3>Cloud & Azure Support</h3>
-        <p>M365, Azure VM, Cloud migration, automation, Power Apps & Power Automate.</p>
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Core IT Services</h2>
+      <p class="section-intro">
+        We act as your extended IT team – from daily support to full
+        infrastructure design and maintenance.
+      </p>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>IT Support &amp; Helpdesk</h3>
+          <ul>
+            <li>Remote &amp; onsite user support</li>
+            <li>OS, software &amp; application troubleshooting</li>
+            <li>Printer, scanner &amp; peripheral issues</li>
+            <li>New user onboarding &amp; offboarding</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>System &amp; Endpoint Administration</h3>
+          <ul>
+            <li>Windows desktop &amp; server management</li>
+            <li>Patch management &amp; updates</li>
+            <li>Antivirus / security hardening</li>
+            <li>Device, policy &amp; access control</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>PC Build &amp; Laptop Services</h3>
+          <ul>
+            <li>Custom business PC builds</li>
+            <li>Laptop upgrade &amp; repair</li>
+            <li>Performance tuning &amp; cleanup</li>
+            <li>Data backup &amp; restore</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Network &amp; Server Setup</h3>
+          <ul>
+            <li>Firewall, router &amp; switch configuration</li>
+            <li>File / application servers</li>
+            <li>Wi-Fi design for office &amp; labs</li>
+            <li>Monitoring &amp; alerting setup</li>
+          </ul>
+        </article>
+      </div>
     </div>
+  </section>
 
-    <div class="service-box">
-        <h3>PC Build & Laptop Service</h3>
-        <p>Upgrades, SSD installation, thermal service, custom PC builds, diagnostics.</p>
+  <section id="cloud" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Cloud, Azure &amp; Email Services</h2>
+      <p class="section-intro">
+        Modern, secure, and scalable cloud setups with smooth migration and
+        minimal downtime.
+      </p>
+
+      <div class="cards-grid">
+        <article class="card card-outline">
+          <h3>Azure &amp; Cloud Services</h3>
+          <ul>
+            <li>Azure AD, identities &amp; access</li>
+            <li>Azure VMs, storage &amp; backup</li>
+            <li>Hybrid infra (on-prem + cloud)</li>
+            <li>Cost optimisation &amp; monitoring</li>
+          </ul>
+        </article>
+
+        <article class="card card-outline">
+          <h3>Mail &amp; Tenant Migration</h3>
+          <ul>
+            <li>Gmail &lt;–&gt; Microsoft 365 migration</li>
+            <li>On-prem Exchange to cloud</li>
+            <li>Mailbox, archive &amp; PST migration</li>
+            <li>Domain &amp; DNS configuration</li>
+          </ul>
+        </article>
+
+        <article class="card card-outline">
+          <h3>Microsoft 365 &amp; Collaboration</h3>
+          <ul>
+            <li>Teams, OneDrive &amp; SharePoint setup</li>
+            <li>License &amp; security configuration</li>
+            <li>Policies for data loss prevention</li>
+            <li>User training &amp; best practices</li>
+          </ul>
+        </article>
+
+        <article class="card card-outline">
+          <h3>Automation &amp; Modern IT</h3>
+          <ul>
+            <li>Power Automate flows for IT</li>
+            <li>Onboarding &amp; offboarding automation</li>
+            <li>Ticketing integrations (Jira, etc.)</li>
+            <li>Custom IT tools &amp; dashboards</li>
+          </ul>
+        </article>
+      </div>
     </div>
+  </section>
 
-    <div class="service-box">
-        <h3>Networking</h3>
-        <p>Router, Switch, Firewall, LAN setup, Server deployment, WiFi optimization.</p>
+  <section id="why" class="section">
+    <div class="container">
+      <h2 class="section-title">Why Work with R³ IT?</h2>
+      <div class="why-grid">
+        <div>
+          <h3>Real-world IT Operations Experience</h3>
+          <p>
+            10+ years hands-on experience in IT support, system admin,
+            Microsoft 365, Azure, and troubleshooting for real production
+            environments.
+          </p>
+        </div>
+        <div>
+          <h3>End-to-End Ownership</h3>
+          <p>
+            From requirement to delivery, we handle planning, execution,
+            documentation and knowledge transfer so you can focus on business.
+          </p>
+        </div>
+        <div>
+          <h3>Flexible Engagement</h3>
+          <p>
+            Choose one-time projects, dedicated support, or AMC &amp; managed
+            services based on your budget and growth plan.
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="service-box">
-        <h3>Managed IT / AMC</h3>
-        <p>Monthly & yearly IT management for offices and small businesses.</p>
+  <section id="contact" class="section section-alt">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="section-title">Contact</h2>
+        <p class="section-intro">
+          Share your requirement and we’ll get back with a simple plan,
+          timeline and cost estimate.
+        </p>
+        <div class="contact-details">
+          <p><strong>Phone:</strong> <a href="tel:+919894094239">+91 98940 94239</a></p>
+          <p><strong>Email:</strong> <a href="mailto:rcubeit@yahoo.com">rcubeit@yahoo.com</a></p>
+        </div>
+        <p class="contact-note">
+          Available for remote support across India and onsite support based on
+          location &amp; project scope.
+        </p>
+      </div>
+
+      <form class="contact-form">
+        <h3>Send a quick message</h3>
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Company
+          <input type="text" name="company" placeholder="Company / Organisation" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          Requirement
+          <textarea name="message" rows="4" placeholder="Briefly describe your issue or project" required></textarea>
+        </label>
+        <button type="submit" class="btn-primary full-width" disabled>
+          Submit (demo only)
+        </button>
+        <p class="form-note">
+          Form is for demo in static hosting. You can later connect it to a
+          form service or backend.
+        </p>
+      </form>
     </div>
-</section>
+  </section>
 
-<!-- CONTACT SECTION -->
-<section id="contact" class="section contact">
-    <h2>Contact Us</h2>
-
-    <div class="contact-box">
-        <p><strong>Email:</strong> support@rcubeit.com</p>
-        <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
-        <p><strong>Location:</strong> India</p>
+  <footer class="footer">
+    <div class="container footer-content">
+      <span>© <span id="year"></span> R³ IT / R-Cube IT Solutions. All rights reserved.</span>
+      <span>IT Support • Cloud • Azure • Managed Services</span>
     </div>
-</section>
-
-<!-- FOOTER -->
-<footer>
-    © 2025 R³ IT | R-Cube IT Solutions. All Rights Reserved.
-</footer>
-
-<script src="script.js"></script>
-
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
 </body>
 </html>
