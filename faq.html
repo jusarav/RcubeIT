@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FAQ – R³ IT</title>
+
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+</head>
+
+<body>
+
+<!-- NAV -->
+<header class="top-nav">
+  <div class="container nav-content">
+    <div class="logo">
+      <span class="logo-main">R³ <span class="logo-it">IT</span></span>
+      <span class="logo-sub">R-Cube IT Solutions</span>
+    </div>
+
+    <nav>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#cloud">Cloud & Azure</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="projects.html">Projects</a>
+      <a href="#faq" style="color:#1fb6ff;">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container" data-aos="fade-up">
+    <h1>Frequently Asked Questions</h1>
+    <p class="section-intro">Quick answers for common IT service questions.</p>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>How do you charge for IT support?</h3>
+      <p>Basic support starts from ₹299. Advanced tasks are based on scope.</p>
+    </div>
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>Do you support remote troubleshooting?</h3>
+      <p>Yes, 90% issues are fixed remotely within minutes.</p>
+    </div>
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>Do you provide onsite support?</h3>
+      <p>Available for projects, AMC clients and large tickets.</p>
+    </div>
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>How does email migration work?</h3>
+      <p>We migrate Gmail ⇄ M365 safely without data loss and with zero downtime.</p>
+    </div>
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>Can you do Azure setup?</h3>
+      <p>Yes — VM, backup, SSO, hybrid infra, Intune & cloud security.</p>
+    </div>
+
+    <div class="faq-item" data-aos="fade-up">
+      <h3>Do you offer AMC?</h3>
+      <p>Yes — starting from ₹999/month depending on requirements.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <span>© <span id="year"></span> R³ IT / R-Cube IT Solutions</span>
+    <span>IT Support • Cloud • Azure • Managed Services</span>
+  </div>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>AOS.init({duration:900, once:true});</script>
+
+</body>
+</html>
