@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0a1a2f;
+    color: #ffffff;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #0f243d;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3bb2ff;
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #3bb2ff;
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 120px 30px;
+    background: #0d2036;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #3bb2ff;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #3bb2ff;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 30px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    color: #3bb2ff;
+}
+
+/* SERVICES */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.service-box {
+    background: #102b49;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    border: 1px solid #1c3f62;
+}
+
+.service-box h3 {
+    color: #3bb2ff;
+}
+
+/* CONTACT */
+.contact-box {
+    background: #102b49;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #081524;
+    color: #8aa2c3;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        background: #0f243d;
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+}
