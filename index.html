@@ -336,3 +336,31 @@
 
 </body>
 </html>
+<div class="mobile-bar">
+  <a href="tel:+919894094239">Call</a>
+  <a href="https://wa.me/919894094239" target="_blank">WhatsApp</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<style>
+.mobile-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#0a132a;
+  display:none;
+  justify-content:space-around;
+  padding:10px 0;
+  z-index:9999;
+}
+.mobile-bar a {
+  color:#1fb6ff;
+  font-weight:600;
+  text-decoration:none;
+}
+@media(max-width:700px){
+  .mobile-bar {display:flex;}
+}
+</style>
+
