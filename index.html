@@ -5,247 +5,310 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>R³ IT | R-Cube IT Solutions</title>
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- AOS Animation CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 </head>
+
 <body>
+
+  <!-- HEADER -->
   <header class="top-nav">
     <div class="container nav-content">
       <div class="logo">
-        <!-- Text logo in Style B -->
         <span class="logo-main">R³ <span class="logo-it">IT</span></span>
         <span class="logo-sub">R-Cube IT Solutions</span>
       </div>
+
       <nav>
         <a href="#services">Services</a>
-        <a href="#cloud">Cloud &amp; Azure</a>
+        <a href="#cloud">Cloud & Azure</a>
         <a href="#why">Why Us</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
     <div class="container hero-grid">
-      <div class="hero-text">
-        <h1>End-to-End IT, Cloud &amp; Support for Growing Businesses</h1>
+      <div class="hero-text" data-aos="fade-right">
+        <h1>End-to-End IT, Cloud & Support for Growing Businesses</h1>
         <p>
           R³ IT (R-Cube IT) provides premium IT support, system administration,
-          cloud services, and managed IT for offices, branches, labs and small
-          to mid-size businesses.
+          cloud services, email migration, Azure support, and managed IT for offices,
+          labs, startups, and SMBs.
         </p>
+
         <div class="hero-actions">
           <a href="#contact" class="btn-primary">Talk to Us</a>
           <a href="#services" class="btn-ghost">View All Services</a>
         </div>
+
         <div class="hero-highlights">
-          <span>10+ years IT experience</span>
-          <span>Onsite &amp; Remote Support</span>
-          <span>Tailored AMC &amp; Projects</span>
+          <span>10+ years of experience</span>
+          <span>Cloud & Azure Specialist</span>
+          <span>AMC & Managed IT</span>
         </div>
       </div>
-      <div class="hero-card">
+
+      <div class="hero-card" data-aos="fade-left">
         <h2>Quick IT Health Check</h2>
-        <p>Struggling with performance, downtime or migrations?</p>
+        <p>Facing any IT issues or slow systems?</p>
         <ul>
-          <li>Slow PCs &amp; network issues</li>
-          <li>Email / Microsoft 365 / Azure problems</li>
-          <li>Backup, security &amp; monitoring gaps</li>
+          <li>Slow PCs & network issues</li>
+          <li>Email / M365 / Azure problems</li>
+          <li>Backup, security & infra gaps</li>
         </ul>
-        <p class="hero-card-note">
-          Get a quick assessment and action plan for your infra.
-        </p>
+        <p class="hero-card-note">Free initial assessment for new clients.</p>
       </div>
     </div>
   </section>
 
+  <!-- SERVICES -->
   <section id="services" class="section">
     <div class="container">
-      <h2 class="section-title">Core IT Services</h2>
-      <p class="section-intro">
-        We act as your extended IT team – from daily support to full
-        infrastructure design and maintenance.
+      <h2 class="section-title" data-aos="fade-up">Core IT Services</h2>
+      <p class="section-intro" data-aos="fade-up">
+        Your one-stop IT partner for support, infra, devices, and automation.
       </p>
 
       <div class="cards-grid">
-        <article class="card">
-          <h3>IT Support &amp; Helpdesk</h3>
+
+        <article class="card" data-aos="zoom-in">
+          <h3>IT Support & Helpdesk</h3>
           <ul>
-            <li>Remote &amp; onsite user support</li>
-            <li>OS, software &amp; application troubleshooting</li>
-            <li>Printer, scanner &amp; peripheral issues</li>
-            <li>New user onboarding &amp; offboarding</li>
+            <li>Remote & onsite troubleshooting</li>
+            <li>Application & OS support</li>
+            <li>Peripheral issues</li>
+            <li>User onboarding / offboarding</li>
           </ul>
         </article>
 
-        <article class="card">
-          <h3>System &amp; Endpoint Administration</h3>
+        <article class="card" data-aos="zoom-in">
+          <h3>System Administration</h3>
           <ul>
-            <li>Windows desktop &amp; server management</li>
-            <li>Patch management &amp; updates</li>
-            <li>Antivirus / security hardening</li>
-            <li>Device, policy &amp; access control</li>
+            <li>AD / Azure AD</li>
+            <li>Policies & access control</li>
+            <li>VPN / printers / file shares</li>
+            <li>Patch management</li>
           </ul>
         </article>
 
-        <article class="card">
-          <h3>PC Build &amp; Laptop Services</h3>
+        <article class="card" data-aos="zoom-in">
+          <h3>PC Build & Laptop Service</h3>
           <ul>
-            <li>Custom business PC builds</li>
-            <li>Laptop upgrade &amp; repair</li>
-            <li>Performance tuning &amp; cleanup</li>
-            <li>Data backup &amp; restore</li>
+            <li>Custom builds</li>
+            <li>Laptop upgrades</li>
+            <li>Thermal cleaning</li>
+            <li>Data recovery</li>
           </ul>
         </article>
 
-        <article class="card">
-          <h3>Network &amp; Server Setup</h3>
+        <article class="card" data-aos="zoom-in">
+          <h3>Network & Server Setup</h3>
           <ul>
-            <li>Firewall, router &amp; switch configuration</li>
-            <li>File / application servers</li>
-            <li>Wi-Fi design for office &amp; labs</li>
-            <li>Monitoring &amp; alerting setup</li>
+            <li>Router / switch config</li>
+            <li>Firewall & VLAN</li>
+            <li>Server deployment</li>
+            <li>Monitoring & alerts</li>
           </ul>
         </article>
+
       </div>
     </div>
   </section>
 
+  <!-- CLOUD & AZURE -->
   <section id="cloud" class="section section-alt">
     <div class="container">
-      <h2 class="section-title">Cloud, Azure &amp; Email Services</h2>
-      <p class="section-intro">
-        Modern, secure, and scalable cloud setups with smooth migration and
-        minimal downtime.
+      <h2 class="section-title" data-aos="fade-up">Cloud, Azure & Email Services</h2>
+      <p class="section-intro" data-aos="fade-up">
+        Modern, scalable cloud solutions with secure migration and setup.
       </p>
 
       <div class="cards-grid">
-        <article class="card card-outline">
-          <h3>Azure &amp; Cloud Services</h3>
+        
+        <article class="card card-outline" data-aos="fade-up">
+          <h3>Azure Cloud Services</h3>
           <ul>
-            <li>Azure AD, identities &amp; access</li>
-            <li>Azure VMs, storage &amp; backup</li>
-            <li>Hybrid infra (on-prem + cloud)</li>
-            <li>Cost optimisation &amp; monitoring</li>
+            <li>Azure VM / Storage</li>
+            <li>Azure AD / Entra</li>
+            <li>Backup & Recovery</li>
+            <li>Hybrid infra solutions</li>
           </ul>
         </article>
 
-        <article class="card card-outline">
-          <h3>Mail &amp; Tenant Migration</h3>
+        <article class="card card-outline" data-aos="fade-up">
+          <h3>Email & Tenant Migration</h3>
           <ul>
-            <li>Gmail &lt;–&gt; Microsoft 365 migration</li>
-            <li>On-prem Exchange to cloud</li>
-            <li>Mailbox, archive &amp; PST migration</li>
-            <li>Domain &amp; DNS configuration</li>
+            <li>Gmail ⇄ M365 migration</li>
+            <li>Tenant-to-tenant migration</li>
+            <li>Exchange On-Prem → Cloud</li>
+            <li>DNS & domain setup</li>
           </ul>
         </article>
 
-        <article class="card card-outline">
-          <h3>Microsoft 365 &amp; Collaboration</h3>
+        <article class="card card-outline" data-aos="fade-up">
+          <h3>Microsoft 365 Management</h3>
           <ul>
-            <li>Teams, OneDrive &amp; SharePoint setup</li>
-            <li>License &amp; security configuration</li>
-            <li>Policies for data loss prevention</li>
-            <li>User training &amp; best practices</li>
+            <li>Teams / OneDrive / SharePoint</li>
+            <li>Security & compliance</li>
+            <li>License optimization</li>
+            <li>DLP & retention</li>
           </ul>
         </article>
 
-        <article class="card card-outline">
-          <h3>Automation &amp; Modern IT</h3>
+        <article class="card card-outline" data-aos="fade-up">
+          <h3>Automation & Power Platform</h3>
           <ul>
-            <li>Power Automate flows for IT</li>
-            <li>Onboarding &amp; offboarding automation</li>
-            <li>Ticketing integrations (Jira, etc.)</li>
-            <li>Custom IT tools &amp; dashboards</li>
+            <li>Power Automate flows</li>
+            <li>Power Apps development</li>
+            <li>Jira / SolarWinds integration</li>
+            <li>Onboarding/offboarding automation</li>
           </ul>
         </article>
+
       </div>
     </div>
   </section>
 
+  <!-- WHY US -->
   <section id="why" class="section">
     <div class="container">
-      <h2 class="section-title">Why Work with R³ IT?</h2>
+      <h2 class="section-title" data-aos="fade-up">Why Work with R³ IT?</h2>
+
       <div class="why-grid">
-        <div>
-          <h3>Real-world IT Operations Experience</h3>
-          <p>
-            10+ years hands-on experience in IT support, system admin,
-            Microsoft 365, Azure, and troubleshooting for real production
-            environments.
-          </p>
+        
+        <div data-aos="fade-right">
+          <h3>Real IT Operations Experience</h3>
+          <p>10+ years managing IT infra, cloud, networking and support.</p>
         </div>
-        <div>
+
+        <div data-aos="fade-up">
           <h3>End-to-End Ownership</h3>
-          <p>
-            From requirement to delivery, we handle planning, execution,
-            documentation and knowledge transfer so you can focus on business.
-          </p>
+          <p>We handle everything: setup, migration, projects, documentation.</p>
         </div>
-        <div>
+
+        <div data-aos="fade-left">
           <h3>Flexible Engagement</h3>
-          <p>
-            Choose one-time projects, dedicated support, or AMC &amp; managed
-            services based on your budget and growth plan.
-          </p>
+          <p>One-time jobs, projects, or AMC / managed IT based on your needs.</p>
         </div>
+
       </div>
     </div>
   </section>
 
+  <!-- CONTACT -->
   <section id="contact" class="section section-alt">
     <div class="container contact-grid">
-      <div>
+
+      <div data-aos="fade-right">
         <h2 class="section-title">Contact</h2>
         <p class="section-intro">
-          Share your requirement and we’ll get back with a simple plan,
-          timeline and cost estimate.
+          Reach out for support, projects, cloud migration or IT consulting.
         </p>
+
         <div class="contact-details">
           <p><strong>Phone:</strong> <a href="tel:+919894094239">+91 98940 94239</a></p>
           <p><strong>Email:</strong> <a href="mailto:rcubeit@yahoo.com">rcubeit@yahoo.com</a></p>
         </div>
+
         <p class="contact-note">
-          Available for remote support across India and onsite support based on
-          location &amp; project scope.
+          Available for remote support PAN India and onsite work (project-based).
         </p>
       </div>
 
-      <form class="contact-form">
+      <!-- LIVE CONTACT FORM -->
+      <form 
+        class="contact-form"
+        action="https://formsubmit.co/rcubeit@yahoo.com"
+        method="POST"
+        data-aos="fade-left"
+      >
         <h3>Send a quick message</h3>
+
+        <!-- Hidden params -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_subject" value="New IT Inquiry from RcubeIT Website">
+
         <label>
           Name
-          <input type="text" name="name" placeholder="Your name" required />
+          <input type="text" name="name" required />
         </label>
+
         <label>
           Company
-          <input type="text" name="company" placeholder="Company / Organisation" />
+          <input type="text" name="company" />
         </label>
+
         <label>
           Email
-          <input type="email" name="email" placeholder="you@example.com" required />
+          <input type="email" name="email" required />
         </label>
+
         <label>
           Requirement
-          <textarea name="message" rows="4" placeholder="Briefly describe your issue or project" required></textarea>
+          <textarea name="message" rows="4" required></textarea>
         </label>
-        <button type="submit" class="btn-primary full-width" disabled>
-          Submit (demo only)
+
+        <button type="submit" class="btn-primary full-width">
+          Submit
         </button>
-        <p class="form-note">
-          Form is for demo in static hosting. You can later connect it to a
-          form service or backend.
-        </p>
       </form>
+
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-content">
-      <span>© <span id="year"></span> R³ IT / R-Cube IT Solutions. All rights reserved.</span>
-      <span>IT Support • Cloud • Azure • Managed Services</span>
+      <span>© <span id="year"></span> R³ IT / R-Cube IT Solutions</span>
+      <span>IT Support • Cloud • Azure • Automation • Managed Services</span>
     </div>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919894094239" class="whatsapp-float" target="_blank">
+    💬
+  </a>
+
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      width: 55px;
+      height: 55px;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: #fff;
+      font-size: 32px;
+      text-align: center;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+      z-index: 9999;
+      text-decoration: none;
+    }
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+    }
+  </style>
+
+  <!-- AOS Animation JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true
+    });
+  </script>
+
 </body>
 </html>
