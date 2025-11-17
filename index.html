@@ -1,368 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>R³ IT | R-Cube IT Solutions</title>
-  <link rel="stylesheet" href="styles.css" />
-
-  <!-- AOS Animation CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>R³ IT | Premium IT Solutions</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
-<!-- Callback Button -->
-<a href="index.html#contact" class="callback-btn">📞</a>
-
-<style>
-.callback-btn {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  width: 55px;
-  height: 55px;
-  background: linear-gradient(135deg,#48c6ff,#1fb6ff);
-  border-radius: 50%;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:#000;
-  font-size:28px;
-  text-decoration:none;
-  z-index:9999;
-  box-shadow:0 8px 25px rgba(0,0,0,0.4);
-}
-</style>
-
 <body>
 
-  <!-- HEADER -->
-  <header class="top-nav">
-    <div class="container nav-content">
-      <div class="logo">
-        <span class="logo-main">R³ <span class="logo-it">IT</span></span>
-        <span class="logo-sub">R-Cube IT Solutions</span>
-      </div>
+<div id="loader"><div class="spinner"></div></div>
 
-      <nav>
-<nav>
-  <a href="#services">Services</a>
-  <a href="#cloud">Cloud & Azure</a>
-  <a href="#why">Why Us</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-
-      </nav>
+<header class="top-nav">
+  <div class="container nav-content">
+    <div class="logo">
+      <span class="logo-main">R³ <span class="logo-it">IT</span></span>
+      <span class="logo-sub">R-Cube IT Solutions</span>
     </div>
-  </header>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#cloud">Cloud</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="projects.html">Projects</a>
+      <a href="faq.html">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-text" data-aos="fade-right">
-        <h1>End-to-End IT, Cloud & Support for Growing Businesses</h1>
-        <p>
-          R³ IT (R-Cube IT) provides premium IT support, system administration,
-          cloud services, email migration, Azure support, and managed IT for offices,
-          labs, startups, and SMBs.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Talk to Us</a>
-          <a href="#services" class="btn-ghost">View All Services</a>
-        </div>
-
-        <div class="hero-highlights">
-          <span>10+ years of experience</span>
-          <span>Cloud & Azure Specialist</span>
-          <span>AMC & Managed IT</span>
-        </div>
-      </div>
-
-      <div class="hero-card" data-aos="fade-left">
-        <h2>Quick IT Health Check</h2>
-        <p>Facing any IT issues or slow systems?</p>
-        <ul>
-          <li>Slow PCs & network issues</li>
-          <li>Email / M365 / Azure problems</li>
-          <li>Backup, security & infra gaps</li>
-        </ul>
-        <p class="hero-card-note">Free initial assessment for new clients.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Core IT Services</h2>
-      <p class="section-intro" data-aos="fade-up">
-        Your one-stop IT partner for support, infra, devices, and automation.
+<section class="hero">
+  <div class="container hero-grid" data-aos="fade-up">
+    <div>
+      <h1>Premium IT, Cloud & Automation Services</h1>
+      <p class="hero-text">
+        10+ years of expert IT support, Azure, cloud migration, automation,
+        system admin, and managed IT services.
       </p>
-
-      <div class="cards-grid">
-
-        <article class="card" data-aos="zoom-in">
-          <h3>IT Support & Helpdesk</h3>
-          <ul>
-            <li>Remote & onsite troubleshooting</li>
-            <li>Application & OS support</li>
-            <li>Peripheral issues</li>
-            <li>User onboarding / offboarding</li>
-          </ul>
-        </article>
-
-        <article class="card" data-aos="zoom-in">
-          <h3>System Administration</h3>
-          <ul>
-            <li>AD / Azure AD</li>
-            <li>Policies & access control</li>
-            <li>VPN / printers / file shares</li>
-            <li>Patch management</li>
-          </ul>
-        </article>
-
-        <article class="card" data-aos="zoom-in">
-          <h3>PC Build & Laptop Service</h3>
-          <ul>
-            <li>Custom builds</li>
-            <li>Laptop upgrades</li>
-            <li>Thermal cleaning</li>
-            <li>Data recovery</li>
-          </ul>
-        </article>
-
-        <article class="card" data-aos="zoom-in">
-          <h3>Network & Server Setup</h3>
-          <ul>
-            <li>Router / switch config</li>
-            <li>Firewall & VLAN</li>
-            <li>Server deployment</li>
-            <li>Monitoring & alerts</li>
-          </ul>
-        </article>
-
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Contact Now</a>
+        <a href="projects.html" class="btn-outline">Our Projects</a>
       </div>
     </div>
-  </section>
-
-  <!-- CLOUD & AZURE -->
-  <section id="cloud" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Cloud, Azure & Email Services</h2>
-      <p class="section-intro" data-aos="fade-up">
-        Modern, scalable cloud solutions with secure migration and setup.
-      </p>
-
-      <div class="cards-grid">
-        
-        <article class="card card-outline" data-aos="fade-up">
-          <h3>Azure Cloud Services</h3>
-          <ul>
-            <li>Azure VM / Storage</li>
-            <li>Azure AD / Entra</li>
-            <li>Backup & Recovery</li>
-            <li>Hybrid infra solutions</li>
-          </ul>
-        </article>
-
-        <article class="card card-outline" data-aos="fade-up">
-          <h3>Email & Tenant Migration</h3>
-          <ul>
-            <li>Gmail ⇄ M365 migration</li>
-            <li>Tenant-to-tenant migration</li>
-            <li>Exchange On-Prem → Cloud</li>
-            <li>DNS & domain setup</li>
-          </ul>
-        </article>
-
-        <article class="card card-outline" data-aos="fade-up">
-          <h3>Microsoft 365 Management</h3>
-          <ul>
-            <li>Teams / OneDrive / SharePoint</li>
-            <li>Security & compliance</li>
-            <li>License optimization</li>
-            <li>DLP & retention</li>
-          </ul>
-        </article>
-
-        <article class="card card-outline" data-aos="fade-up">
-          <h3>Automation & Power Platform</h3>
-          <ul>
-            <li>Power Automate flows</li>
-            <li>Power Apps development</li>
-            <li>Jira / SolarWinds integration</li>
-            <li>Onboarding/offboarding automation</li>
-          </ul>
-        </article>
-
-      </div>
+    <div class="hero-card">
+      <h2>Quick IT Check</h2>
+      <p>Facing issues? We fix:</p>
+      <ul>
+        <li>Slow PC & network</li>
+        <li>Azure / M365 errors</li>
+        <li>Email & migration issues</li>
+      </ul>
+      <p class="hero-note">Free initial diagnostics</p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- WHY US -->
-  <section id="why" class="section">
-    <div class="container">
-      <h2 class="section-title" data-aos="fade-up">Why Work with R³ IT?</h2>
-
-      <div class="why-grid">
-        
-        <div data-aos="fade-right">
-          <h3>Real IT Operations Experience</h3>
-          <p>10+ years managing IT infra, cloud, networking and support.</p>
-        </div>
-
-        <div data-aos="fade-up">
-          <h3>End-to-End Ownership</h3>
-          <p>We handle everything: setup, migration, projects, documentation.</p>
-        </div>
-
-        <div data-aos="fade-left">
-          <h3>Flexible Engagement</h3>
-          <p>One-time jobs, projects, or AMC / managed IT based on your needs.</p>
-        </div>
-
-      </div>
+<section id="services" class="section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">IT Services</h2>
+    <div class="grid-3">
+      <div class="card" data-aos="zoom-in"><h3>IT Support</h3><p>Troubleshooting, helpdesk, remote fixes.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>System Admin</h3><p>AD, Azure AD, GPO, VPN, security.</p></div>
+      <div class="card" data-aos="zoom-in"><h3>Device Services</h3><p>PC builds, upgrades, laptop repair.</p></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
-    <div class="container contact-grid">
-
-      <div data-aos="fade-right">
-        <h2 class="section-title">Contact</h2>
-        <p class="section-intro">
-          Reach out for support, projects, cloud migration or IT consulting.
-        </p>
-
-        <div class="contact-details">
-          <p><strong>Phone:</strong> <a href="tel:+919894094239">+91 98940 94239</a></p>
-          <p><strong>Email:</strong> <a href="mailto:rcubeit@yahoo.com">rcubeit@yahoo.com</a></p>
-        </div>
-
-        <p class="contact-note">
-          Available for remote support PAN India and onsite work (project-based).
-        </p>
-      </div>
-
-      <!-- LIVE CONTACT FORM -->
-      <form 
-        class="contact-form"
-        action="https://formsubmit.co/rcubeit@yahoo.com"
-        method="POST"
-        data-aos="fade-left"
-      >
-        <h3>Send a quick message</h3>
-
-        <!-- Hidden params -->
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_subject" value="New IT Inquiry from RcubeIT Website">
-
-        <label>
-          Name
-          <input type="text" name="name" required />
-        </label>
-
-        <label>
-          Company
-          <input type="text" name="company" />
-        </label>
-
-        <label>
-          Email
-          <input type="email" name="email" required />
-        </label>
-
-        <label>
-          Requirement
-          <textarea name="message" rows="4" required></textarea>
-        </label>
-
-        <button type="submit" class="btn-primary full-width">
-          Submit
-        </button>
-      </form>
-
+<section id="cloud" class="section-alt">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Cloud & Azure</h2>
+    <div class="grid-3">
+      <div class="card" data-aos="fade-right"><h3>Azure Setup</h3><p>VM, backup, hybrid infra, security.</p></div>
+      <div class="card" data-aos="fade-up"><h3>M365</h3><p>Teams, SharePoint, OneDrive config.</p></div>
+      <div class="card" data-aos="fade-left"><h3>Email Migration</h3><p>Gmail → M365, T2T, PST move.</p></div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-content">
-      <span>© <span id="year"></span> R³ IT / R-Cube IT Solutions</span>
-      <span>IT Support • Cloud • Azure • Automation • Managed Services</span>
-    </div>
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </footer>
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title" data-aos="fade-up">Contact Us</h2>
+    <form class="contact-form" action="https://formsubmit.co/rcubeit@yahoo.com" method="POST" data-aos="fade-up">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="message" rows="4" required></textarea></label>
+      <button class="btn-primary full-width">Send</button>
+    </form>
+  </div>
+</section>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/919894094239" class="whatsapp-float" target="_blank">
-    💬
-  </a>
+<footer class="footer">
+  <div class="container footer-content">
+    © <span id="year"></span> R³ IT — Premium IT Solutions
+  </div>
+</footer>
 
-  <style>
-    .whatsapp-float {
-      position: fixed;
-      width: 55px;
-      height: 55px;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: #fff;
-      font-size: 32px;
-      text-align: center;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-      z-index: 9999;
-      text-decoration: none;
-    }
-    .whatsapp-float:hover {
-      background-color: #128C7E;
-    }
-  </style>
+<a href="https://wa.me/919894094239" class="whatsapp-btn">💬</a>
 
-  <!-- AOS Animation JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 900,
-      once: true
-    });
-  </script>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+window.onload=function(){document.getElementById("loader").style.display="none";}
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>AOS.init({duration:900,once:true});</script>
 
 </body>
 </html>
-<div class="mobile-bar">
-  <a href="tel:+919894094239">Call</a>
-  <a href="https://wa.me/919894094239" target="_blank">WhatsApp</a>
-  <a href="#contact">Contact</a>
-</div>
-
-<style>
-.mobile-bar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background:#0a132a;
-  display:none;
-  justify-content:space-around;
-  padding:10px 0;
-  z-index:9999;
-}
-.mobile-bar a {
-  color:#1fb6ff;
-  font-weight:600;
-  text-decoration:none;
-}
-@media(max-width:700px){
-  .mobile-bar {display:flex;}
-}
-</style>
-
